@@ -16,13 +16,13 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 99999))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("OWNER_ID", 8194005351))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botz_x_hub")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Alice_x_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Team_Supporty")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Team_Supporty")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,13 +78,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/adb4c3fe1124461b023c4.jpg"
+    "START_IMG_URL", "https://graph.org/file/008f4a8c15ec78bf58df6-061436e950eff5a7b4.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/531090c47c12e983bf731.jpg"
+    "PING_IMG_URL", "https://graph.org/file/4c73e36134792a1fb7e2d-6794a433363ce8129f.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/6dd4127abb744a1c82ce9.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/_IP.jpg"
+STATS_IMG_URL = "https://graph.org/file/6c0931e09023215919ad3-39d8af3f77055ff864.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph//file/4f8a07408aacfff00f3de.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph//file/4f8a07408aacfff00f3de.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
